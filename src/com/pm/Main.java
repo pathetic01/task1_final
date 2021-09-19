@@ -4,7 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         double radius, height, a = 0, v;
+        System.out.println("Введите radius");
         radius = read(a);
+        System.out.println("Введите height");
         height = read(a);
         v = calc(radius, height);
         answer(v);
