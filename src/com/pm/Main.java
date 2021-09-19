@@ -26,7 +26,6 @@ public class Main {
     private static void answer(double v){
         if (v <= 0) {
             System.out.println("Ошибка!"); 
-
         }
         else {
             System.out.println("Ответ: " + v);
